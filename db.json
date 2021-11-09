@@ -70,6 +70,75 @@
       "author": "Mark",
       "userId": "1",
       "id": 3
+    },
+    {
+      "title": "Tarte Tatin",
+      "ingredients": [
+        "1 ½ xícara de chá de farinha de trigo",
+        "100g de manteiga gelada em cubos",
+        "1 colher de sopa de açúcar",
+        "1 pitada de sal",
+        "1 a 3 colheres de sopa de água gelada"
+      ],
+      "instructions": [
+        "1. Corte a manteiga em cubinhos de cerca de 1cm. Se não for usar imediantamente, volte à geladeira. É importante que eles estejam gelados para que o resultado seja uma massa crocante.",
+        "2. Numa tigela, coloque a farinha, o açúcar, o sal e misture bem.",
+        "3. Junte os cubos de manteiga e misture com as mãos, rapidamente, sem desmanchar completamente a manteiga.",
+        "4. Adicione uma colherada de água gelada por vez, conforme a necessidade, e misture apenas até conseguir formar uma bola. (Evite trabalhar demais a massa, pois ela acaba ficando menos crocante. O segredo é deixar pontinhos de manteiga aparentes, sem serem incorporados à farinha).",
+        "5. Faça uma bola e embrulhe a massa com filme. Leve à geladeira por 2 a 24 horas, o que for melhor para você."
+      ],
+      "category": "doce",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "title": "Lasanha de Palmito",
+      "ingredients": [
+        "200g de massa de lasanha cozida",
+        "1 vidro de palmito picado (reserve a água)",
+        "2 cebolas picadas",
+        "2 tomates picados",
+        "2 dentes de alho picados",
+        "½ pimentão-verde picado",
+        "500g de Queijo Mussarela ralado",
+        "1 copo de Requeijão",
+        "1 caixa de Creme de Leite",
+        "2 colheres de sopa de Manteiga (com sal)",
+        "1 xícara de chá de leite",
+        "2 colheres de sopa de farinha de trigo",
+        "25g de Queijo Parmesão ralado",
+        "Cheiro-verde, orégano e sal a gosto",
+        "1 tablete de caldo de legumes"
+      ],
+      "instructions": [
+        "1. Recheio: em uma panela, coloque uma colher de manteiga, doure uma cebola e o alho. Depois, acrescente o tomate, o pimentão, o caldo de legumes e o palmito e regue aos poucos com a água do palmito. Teste o sal e por último coloque o cheiro-verde e o orégano; reserve.",
+        "2. Molho branco: em uma panela, doure a outra cebola picada com o restante da manteiga, acrescente a farinha de trigo, mexendo constantemente, adicione o leite e o requeijão. Abaixe o fogo e por último acrescente o creme de leite; se necessário, coloque uma pitada de sal; reserve.",
+        "3. Montagem: em um refratário, coloque camadas de recheio, massa, recheio e queijo mussarela, depois coloque o molho branco e o queijo parmesão ralado; leve para assar em fogo médio por 40 minutos."
+      ],
+      "category": "salgado",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 5
+    },
+    {
+      "title": "Manhattan",
+      "ingredients": [
+        "50mL de whisky de sabor leve",
+        "30mL de vermouth rosso",
+        "2 porções de Angostura",
+        "Cereja e cascas de laranja para decorar"
+      ],
+      "instructions": [
+        "1. Junte todos os ingredientes em um copo.",
+        "2. Com a ajuda de uma colher bailarina, misture tudo delicadamente.",
+        "3. Finalize com a cereja e a casca de laranja.",
+        "4. Sirva em uma taça própria para drinks"
+      ],
+      "category": "bebida",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 6
     }
   ],
   "myRecipes": [],
