@@ -139,6 +139,78 @@
       "author": "Mark Zuckerberg",
       "userId": "1",
       "id": 6
+    },
+    {
+      "title": "Pão de Queijo",
+      "ingredients": [
+        "500 g fécula de mandioca (polvilho doce)",
+        "300 g polvilho azedo",
+        "440 g queijo minas padrão ralado",
+        "220 g queijo parmesão ralado",
+        "550 mL leite integral",
+        "110 mL óleo vegetal",
+        "5 ovos",
+        "25 g sal refinado (a quantidade depende do queijo usado)",
+        "30 g manteiga sem sal"
+      ],
+      "instructions": [
+        "Peneirar todos os secos: polvilho azedo, fécula e o sal. Principalmente o azedo, havia vários grânulos duros no meio, e na fécula alguns flocos estranhos. Reserve.",
+        "Numa panela misture leite integral, óleo, manteiga. Levar ao fogo e deixar ferver.",
+        "Então, acrescentar aos secos vagarosamente e mexendo. Tendo cuidado, estará quente. Essa etapa é chamada de “escaldar” o polvilho.",
+        "Para bater, pode ser manualmente com uma colher grande ou espátula. Ideal que seja na batedeira planetária. É uma massa pesada.",
+        "Continue batendo até esfriar. Deve ficar bem uniforme, macia e uniforme. A melhor comparação é com massa de biscuit.",
+        "Quando ficar morna, ou seja, conseguir colocar a mão sem se queimar. É o momento de acrescentar os ovos. Parece que eles não serão absorvidos, mas vão. Com calma e paciência, coloque um por um, misturando e esperando que seja absorvido pela massa. Em seguida, os queijos. Parece muito queijo, mas a massa aguenta e absorve tudo.",
+        "A massa fica pegajosa quando pronta, então, para fazer as bolinhas é preciso passar óleo nas mãos.",
+        "Aquecer o forno em 180ºC. Unte a assadeira, distribua as bolinhas (deixando espaço entre), assar a 180ºC por 25-30 minutos."
+      ],
+      "category": "salgado",
+      "author": "Mark",
+      "userId": "1",
+      "id": 7
+    },
+    {
+      "title": "Sorvetão",
+      "ingredients": [
+        "3 gemas",
+        "1 lata de leite condensado + 2 vezes a mesma medida de leite",
+        "1 lata de creme de leite",
+        "3 claras",
+        "3 colheres (sopa) de açúcar",
+        "9 colheres (sopa) de achocolatado em pó misturado com 10 colheres (sopa) de água para forrar a fôrma"
+      ],
+      "instructions": [
+        "Misture as gemas com o leite condensado, o leite e metade do creme de leite em uma panela.",
+        "Leve ao fogo médio, mexendo sempre, até engrossar. Tampe e reserve.",
+        "Bata as claras com o açúcar na batedeira até obter picos firmes.",
+        "Sem bater, incorpore delicadamente o creme de leite restante.",
+        "Misture ao creme na panela e despeje em fôrma de cone central forrada com a calda de achocolatado.",
+        "Leve ao freezer por 4 horas antes de desenformar."
+      ],
+      "category": "doce",
+      "author": "Mark",
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "title": "Moscow Mule",
+      "ingredients": [
+        "1½ Partes de Absolut Vodka",
+        "Cubos De Gelo",
+        "½ Parte de Suco De Limão",
+        "Cerveja De Gengibre",
+        "1 Pedaço de Limão"
+      ],
+      "instructions": [
+        "Encher um mule mug com cubos de gelo.",
+        "Adicionar Absolut Vodka.",
+        "Adicionar suco de limão. ",
+        "Completar com cerveja de gengibre. ",
+        "Decorar com limão."
+      ],
+      "category": "bebidas",
+      "author": "Mark",
+      "userId": "1",
+      "id": 9
     }
   ],
   "myRecipes": [],
