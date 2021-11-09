@@ -211,6 +211,80 @@
       "author": "Mark",
       "userId": "1",
       "id": 9
+    },
+    {
+      "title": "Doce Gelado de Coco com Chocolate",
+      "ingredients": [
+        "Creme branco:",
+        "1 lata de leite condensado",
+        "800 ml de leite",
+        "200 g de coco ralado",
+        "1 e 1/2 colher (sopa) de amido de milho",
+        "1 pitada de sal",
+        "Cobertura:",
+        "1 lata de creme de leite",
+        "12 colheres (sopa) de achocolatado"
+      ],
+      "instructions": [
+        "Creme branco:",
+        "Em uma panela, misture todos ingredientes e leve ao fogo até formar um creme homogêneo.",
+        "Despeje o creme em uma travessa ou em porções individuais e reserve.",
+        "Cobertura:",
+        "Em um recipiente, misture bem o creme de leite e o achocolatado sem levar ao fogo.",
+        "Despeje a mistura por cima do creme branco e leva à geladeira.",
+        "Sirva gelado."
+      ],
+      "category": "doce",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "title": "Risoto de Frango",
+      "ingredients": [
+        "1 peito de frango cozido e desfiado",
+        "1 sachê de pomarola tradicional",
+        "1 lata de milho verde",
+        "1 tablete de caldo de frango",
+        "8 azeitonas médias sem caroço",
+        "Arroz cozido",
+        "Coentro",
+        "Alho",
+        "Cebola",
+        "Sal"
+      ],
+      "instructions": [
+        "Cozinhe o peito de frango com sal e o caldo de galinha.",
+        "Reserve a água do caldo e desfie o frango.",
+        "Em uma panela refogue o alho e a cebola.",
+        "Acrescente o sachê de pomarola, 300 ml do caldo do peito, azeitonas e o milho.",
+        "Mexa até misturar bem.",
+        "Acrescente o arroz cozido, mais ou menos 4 xícaras.",
+        "Mexa novamente, misturando bem.",
+        "Coloque em uma travessa."
+      ],
+      "category": "salgado",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 11
+    },
+    {
+      "title": "Caipirinha de Kiwi com Saquê",
+      "ingredients": [
+        "2 kiwis sem casca",
+        "60 ml de saquê",
+        "Açúcar a gosto (cerca de 4 colheres)",
+        "Cubos de gelo a gosto"
+      ],
+      "instructions": [
+        "Coloque o kiwi e o açúcar em um copo e amasse com o socador.",
+        "Acrescente o saquê, mexa bem.",
+        "Acrescente cubos de gelo e mexa."
+      ],
+      "category": "bebida",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 12
     }
   ],
   "myRecipes": [],
