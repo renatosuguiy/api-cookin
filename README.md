@@ -1,24 +1,327 @@
-# json-server-base
-
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+<h1 align='center'>
+    JSON Server React da API Cookin'
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+A url base da API é https://###############
 
-### Cadastro
+## Rotas que não precisam de autenticação
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+<br/>
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+<h2 align='center'> Usuários </h2>
+<h3 align='center'> Cadastro de usuário</h3>
 
+`POST /register - FORMATO DA REQUISIÇÃO`
 
-### Login
+```json
+{
+  "name": "nome do usuário",
+  "email": "email do usuário",
+  "sexo": "sexo do usuário",
+  "pasword": "senha do usuário"
+}
+```
 
-POST /login <br/>
-POST /signin
+Caso dê tudo certo, a resposta será assim:
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+`POST /login - FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJlbmF0b3N1Z3VpeUBnbWFpbC5jb20iLCJpYXQiOjE2MzUxODgyNDMsImV4cCI6MTYzNTE5MTg0Mywic3ViIjoiMiJ9.2RlYnFu1xmqEEbmJM89YmMI8YFu745cksdgkR5pSDr4",
+  "user": {
+    "name": "nome do usuário",
+    "email": "email do usuário",
+    "sexo": "sexo do usuário",
+    "id": "id do usuário"
+  }
+}
+```
+
+<br/>
+
+<h3 align='center'> Login </h3>
+
+`POST /login - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+  "email": "email do usuário",
+  "password": "senha do usuário"
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+`POST /login - FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJlbmF0b3N1Z3VpeUBnbWFpbC5jb20iLCJpYXQiOjE2MzUxODk0NTcsImV4cCI6MTYzNTE5MzA1Nywic3ViIjoiMiJ9.ICDyqztTS7PYM8hebNx77LD48US91sMecMSqJQuJ3JM",
+  "user": {
+    "name": "nome do usuário",
+    "email": "email do usuário",
+    "sexo": "sexo do usuário",
+    "id": "id do usuário"
+  }
+}
+```
+
+## Rotas que precisam de autenticação
+
+Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
+
+> Authorization: Bearer {token}
+
+Após o usuário estar logado, ele deve conseguir acessar os endpoints abaixo:
+
+<br/>
+<h2 align='center'> Receitas Particulares </h2>
+
+<h3 align='center'> Adicionar Receitas Particulares</h3>
+
+`POST /myrecipes - FORMATO DA REQUISIÇÃO`
+
+```JSON
+{
+  "title": "título da receita",
+  "ingredients": [
+    "ingrediente",
+    "ingrediente",
+    "ingrediente",
+    "ingrediente"
+    ],
+  "instructions": [
+    "passo",
+    "passo",
+    "passo",
+    "passo"
+    ],
+    "category": "salgado || doce || bebida",
+    "author":"Mark",
+    "userId": "1",
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+{
+  "title": "título da receita",
+  "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+  "instructions": ["passo", "passo", "passo", "passo"],
+  "category": "salgado || doce || bebida",
+  "author": "Mark",
+  "userId": "1",
+  "id": "1"
+}
+```
+
+<br/>
+
+<h3 align='center'> Ver Receitas Particulares </h3>
+
+`GET /myrecipes - FORMATO DA RESPOSTA - STATUS 200`
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+[
+  {
+    "title": "título da receita",
+    "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+    "instructions": ["passo", "passo", "passo", "passo"],
+    "category": "salgado || doce || bebida",
+    "author": "Mark",
+    "userId": "1",
+    "id": "1"
+  }
+]
+```
+
+<br/>
+
+<h3 align='center'> Deletar Receitas Particulares </h3>
+
+`DELETE /myrecipes/${myrecipeID} - FORMATO DA RESPOSTA - STATUS 200`
+
+Este endpoint não possui resposta
+
+<br/>
+
+<h3 align='center'> Editar Receitas Particulares</h3>
+
+`POST /myrecipes/${myrecipeID} - FORMATO DA REQUISIÇÃO`
+
+```JSON
+{
+  "title": "título da receita",
+  "ingredients": [
+    "ingrediente",
+    "ingrediente",
+    "ingrediente",
+    "ingrediente"
+    ],
+  "instructions": [
+    "passo",
+    "passo",
+    "passo",
+    "passo"
+    ],
+    "category": "salgado || doce || bebida",
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+{
+  "title": "título da receita",
+  "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+  "instructions": ["passo", "passo", "passo", "passo"],
+  "category": "salgado || doce || bebida",
+  "author": "Mark",
+  "userId": "1",
+  "id": "1"
+}
+```
+
+<br/>
+<h2 align='center'> Receitas Públicas </h2>
+<h3 align='center'> Adicionar Receitas Públicas</h3>
+
+`POST /recipes - FORMATO DA REQUISIÇÃO`
+
+```JSON
+{
+  "title": "título da receita",
+  "ingredients": [
+    "ingrediente",
+    "ingrediente",
+    "ingrediente",
+    "ingrediente"
+    ],
+  "instructions": [
+    "passo",
+    "passo",
+    "passo",
+    "passo"
+    ],
+    "category": "salgado || doce || bebida",
+    "author":"Mark",
+    "review": [],
+    "userId": "1"
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+{
+  "title": "título da receita",
+  "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+  "instructions": ["passo", "passo", "passo", "passo"],
+  "category": "salgado || doce || bebida",
+  "author": "Mark",
+  "review": [],
+  "userId": "1",
+  "id": "1"
+}
+```
+
+<br/>
+
+<h3 align='center'> Ver Receitas Públicas </h3>
+
+`GET /recipes - FORMATO DA RESPOSTA - STATUS 200`
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+[
+  {
+    "title": "título da receita",
+    "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+    "instructions": ["passo", "passo", "passo", "passo"],
+    "category": "salgado || doce || bebida",
+    "author": "Mark",
+    "review": [],
+    "userId": "1",
+    "id": "1"
+  }
+]
+```
+
+<br/>
+<h2 align='center'> Favoritas </h2>
+<h3 align='center'> Adicionar Receitas Favoritas</h3>
+
+`POST /favorites - FORMATO DA REQUISIÇÃO`
+
+```JSON
+{
+  "title": "título da receita",
+  "ingredients": [
+    "ingrediente",
+    "ingrediente",
+    "ingrediente",
+    "ingrediente"
+    ],
+  "instructions": [
+    "passo",
+    "passo",
+    "passo",
+    "passo"
+    ],
+    "category": "salgado || doce || bebida",
+    "author":"Mark",
+    "userId": "1",
+}
+```
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+{
+  "title": "título da receita",
+  "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+  "instructions": ["passo", "passo", "passo", "passo"],
+  "category": "salgado || doce || bebida",
+  "author": "Mark",
+  "userId": "1",
+  "id": "1"
+}
+```
+
+<br/>
+
+<h3 align='center'> Ver Receitas Favoritas </h3>
+
+`GET /favorites - FORMATO DA RESPOSTA - STATUS 200`
+
+Caso dê tudo certo, a resposta será assim:
+
+```json
+[
+  {
+    "title": "título da receita",
+    "ingredients": ["ingrediente", "ingrediente", "ingrediente", "ingrediente"],
+    "instructions": ["passo", "passo", "passo", "passo"],
+    "category": "salgado || doce || bebida",
+    "author": "Mark",
+    "userId": "1",
+    "id": "1"
+  }
+]
+```
+
+<br/>
+
+<h3 align='center'> Deletar Receitas favorites </h3>
+
+`DELETE /favorites/${favoritesID} - FORMATO DA RESPOSTA - STATUS 200`
+
+Este endpoint não possui resposta
+
+<br/>

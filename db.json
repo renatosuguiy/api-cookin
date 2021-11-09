@@ -8,6 +8,26 @@
     }
   ],
   "recipes": [],
-  "myRecipes": [],
+  "myRecipes": [
+    {
+      "title": "Fanta",
+      "ingredients": [
+        "ingrediente",
+        "ingrediente",
+        "ingrediente",
+        "ingrediente"
+      ],
+      "instructions": [
+        "passo",
+        "passo",
+        "passo",
+        "passo"
+      ],
+      "category": "salgado || doce || bebida",
+      "author": "Mark",
+      "userId": "1",
+      "id": 1
+    }
+  ],
   "favorites": []
 }
