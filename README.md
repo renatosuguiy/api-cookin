@@ -12,7 +12,7 @@ A url base da API é https://###############
 <h2 align='center'> Usuários </h2>
 <h3 align='center'> Cadastro de usuário</h3>
 
-`POST /register - FORMATO DA REQUISIÇÃO`
+`POST /register - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```json
 {
@@ -43,7 +43,7 @@ Caso dê tudo certo, a resposta será assim:
 
 <h3 align='center'> Login </h3>
 
-`POST /login - FORMATO DA REQUISIÇÃO`
+`POST /login - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```json
 {
@@ -81,7 +81,7 @@ Após o usuário estar logado, ele deve conseguir acessar os endpoints abaixo:
 
 <h3 align='center'> Adicionar Receitas Particulares</h3>
 
-`POST /myrecipes - FORMATO DA REQUISIÇÃO`
+`POST /myrecipes - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```JSON
 {
@@ -152,7 +152,7 @@ Este endpoint não possui resposta
 
 <h3 align='center'> Editar Receitas Particulares</h3>
 
-`POST /myrecipes/${myrecipeID} - FORMATO DA REQUISIÇÃO`
+`POST /myrecipes/${myrecipeID} - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```JSON
 {
@@ -191,7 +191,7 @@ Caso dê tudo certo, a resposta será assim:
 <h2 align='center'> Receitas Públicas </h2>
 <h3 align='center'> Adicionar Receitas Públicas</h3>
 
-`POST /recipes - FORMATO DA REQUISIÇÃO`
+`POST /recipes - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```JSON
 {
@@ -257,7 +257,7 @@ Caso dê tudo certo, a resposta será assim:
 <h2 align='center'> Favoritas </h2>
 <h3 align='center'> Adicionar Receitas Favoritas</h3>
 
-`POST /favorites - FORMATO DA REQUISIÇÃO`
+`POST /favorites - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```JSON
 {
