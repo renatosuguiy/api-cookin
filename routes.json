@@ -1,3 +1,6 @@
 {
-  "users": 600
+  "users": 600,
+  "recipes": 640,
+  "myRecipes": 600,
+  "favorites": 600
 }
