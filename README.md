@@ -3,7 +3,7 @@
 
 ## Endpoints
 
-A url base da API é https://###############
+A url base da API é https://api-cookin.herokuapp.com
 
 ## Rotas que não precisam de autenticação
 
@@ -184,7 +184,7 @@ Este endpoint não possui resposta
 
 <h3 align='center'> Editar Receitas Particulares</h3>
 
-`POST /myrecipes/${myrecipeID} - FORMATO DA REQUISIÇÃO - STATUS 201`
+`PATCH /myrecipes/${myrecipeID} - FORMATO DA REQUISIÇÃO - STATUS 201`
 
 ```JSON
 {
