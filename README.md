@@ -3,7 +3,7 @@
 
 ## Endpoints
 
-A url base da API é https://###############
+A url base da API é https://api-cookin.herokuapp.com
 
 ## Rotas que não precisam de autenticação
 
