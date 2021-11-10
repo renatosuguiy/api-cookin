@@ -34,7 +34,7 @@
         "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
       ],
       "category": "doce",
-      "author": "Mark",
+      "author": "Mark Zuckerberg",
       "userId": "1",
       "id": 1
     },
@@ -54,7 +54,7 @@
         "Depois joga na forma untada com óleo, faça os cortes e leve ao forno a 200°C por 30 minutos. Tá pronto!"
       ],
       "category": "salgado",
-      "author": "Mark",
+      "author": "Mark Zuckerberg",
       "userId": "1",
       "id": 2
     },
@@ -74,25 +74,37 @@
         "Pode ser armazenado em pote de vidro por até 1 mês."
       ],
       "category": "bebida",
-      "author": "Mark",
+      "author": "Mark Zuckerberg",
       "userId": "1",
       "id": 3
     },
     {
       "title": "Tarte Tatin",
       "ingredients": [
-        "1 ½ xícara de chá de farinha de trigo",
-        "100g de manteiga gelada em cubos",
-        "1 colher de sopa de açúcar",
+        "170g de farinha",
+        "70g de manteiga",
+        "20g de açúcar",
         "1 pitada de sal",
-        "1 a 3 colheres de sopa de água gelada"
+        "1 ovo",
+        "6 a 8  de maçãs (de preferência variedade Gold bem amarelinhas)",
+        "80g de manteiga derretida",
+        "130g de açúcar granulado",
+        "suco de 1 limão"
       ],
       "instructions": [
-        "1. Corte a manteiga em cubinhos de cerca de 1cm. Se não for usar imediantamente, volte à geladeira. É importante que eles estejam gelados para que o resultado seja uma massa crocante.",
-        "2. Numa tigela, coloque a farinha, o açúcar, o sal e misture bem.",
-        "3. Junte os cubos de manteiga e misture com as mãos, rapidamente, sem desmanchar completamente a manteiga.",
-        "4. Adicione uma colherada de água gelada por vez, conforme a necessidade, e misture apenas até conseguir formar uma bola. (Evite trabalhar demais a massa, pois ela acaba ficando menos crocante. O segredo é deixar pontinhos de manteiga aparentes, sem serem incorporados à farinha).",
-        "5. Faça uma bola e embrulhe a massa com filme. Leve à geladeira por 2 a 24 horas, o que for melhor para você."
+        "Misture a manteiga, a farinha, o açúcar e sal usando a ponta dos dedos.",
+        "Quanto estiver bem misturado e com aspecto de areia, adicione o ovo e ligue tudo, trabalhando a massa o menor tempo possível.",
+        "Se necessário, adicione uma colher de café de água para ajudar a dar liga. Deixe descansar 30 minutos na geladeira.",
+        "Abra a massa numa superfície enfarinhada. Deite a massa aberta em uma forma redonda, untada e com cerca 24 cm de diâmetro.",
+        "Descasque as maçãs. Corte em quatro pedaços, retire as sementes e adicione o suco de limão. Misture delicadamente.",
+        "Em uma forma redonda, que possa ir no fogão e no forno, junte o açúcar a seco em fogo baixo e deixe caramelizar sem mexer.",
+        "Quando o açúcar tiver escuro, arrume as maçãs em forma de coroa, coloque uma ou duas no meio.",
+        "Junte a manteiga cortada em pedaços.",
+        "Tire do fogão e cubra o caramelo e as maçãs com a massa.",
+        "Importante: pressione bem a massa contra a forma, para evitar que o suco saia e cubra a massa.",
+        "O suco deve ficar preso, debaixo da massa. Asse no forno a 180 graus pré aquecidos por cerca 30 minutos.",
+        "Não desenforme imediatamente, voce correrá o risco das maçãs ficarem coladas no fundo. Espere uns bons 10 minutos.",
+        "Para desenformar, vire a fôrma de cabeça para baixo em um prato de torta. Sirva quente."
       ],
       "category": "doce",
       "author": "Mark Zuckerberg",
@@ -119,9 +131,9 @@
         "1 tablete de caldo de legumes"
       ],
       "instructions": [
-        "1. Recheio: em uma panela, coloque uma colher de manteiga, doure uma cebola e o alho. Depois, acrescente o tomate, o pimentão, o caldo de legumes e o palmito e regue aos poucos com a água do palmito. Teste o sal e por último coloque o cheiro-verde e o orégano; reserve.",
-        "2. Molho branco: em uma panela, doure a outra cebola picada com o restante da manteiga, acrescente a farinha de trigo, mexendo constantemente, adicione o leite e o requeijão. Abaixe o fogo e por último acrescente o creme de leite; se necessário, coloque uma pitada de sal; reserve.",
-        "3. Montagem: em um refratário, coloque camadas de recheio, massa, recheio e queijo mussarela, depois coloque o molho branco e o queijo parmesão ralado; leve para assar em fogo médio por 40 minutos."
+        "Recheio: em uma panela, coloque uma colher de manteiga, doure uma cebola e o alho. Depois, acrescente o tomate, o pimentão, o caldo de legumes e o palmito e regue aos poucos com a água do palmito. Teste o sal e por último coloque o cheiro-verde e o orégano; reserve.",
+        "Molho branco: em uma panela, doure a outra cebola picada com o restante da manteiga, acrescente a farinha de trigo, mexendo constantemente, adicione o leite e o requeijão. Abaixe o fogo e por último acrescente o creme de leite; se necessário, coloque uma pitada de sal; reserve.",
+        "Montagem: em um refratário, coloque camadas de recheio, massa, recheio e queijo mussarela, depois coloque o molho branco e o queijo parmesão ralado; leve para assar em fogo médio por 40 minutos."
       ],
       "category": "salgado",
       "author": "Mark Zuckerberg",
@@ -137,15 +149,161 @@
         "Cereja e cascas de laranja para decorar"
       ],
       "instructions": [
-        "1. Junte todos os ingredientes em um copo.",
-        "2. Com a ajuda de uma colher bailarina, misture tudo delicadamente.",
-        "3. Finalize com a cereja e a casca de laranja.",
-        "4. Sirva em uma taça própria para drinks"
+        "Junte todos os ingredientes em um copo.",
+        "Com a ajuda de uma colher bailarina, misture tudo delicadamente.",
+        "Finalize com a cereja e a casca de laranja.",
+        "Sirva em uma taça própria para drinks"
       ],
       "category": "bebida",
       "author": "Mark Zuckerberg",
       "userId": "1",
       "id": 6
+    },
+    {
+      "title": "Pão de Queijo",
+      "ingredients": [
+        "500 g fécula de mandioca (polvilho doce)",
+        "300 g polvilho azedo",
+        "440 g queijo minas padrão ralado",
+        "220 g queijo parmesão ralado",
+        "550 mL leite integral",
+        "110 mL óleo vegetal",
+        "5 ovos",
+        "25 g sal refinado (a quantidade depende do queijo usado)",
+        "30 g manteiga sem sal"
+      ],
+      "instructions": [
+        "Peneirar todos os secos: polvilho azedo, fécula e o sal. Principalmente o azedo, havia vários grânulos duros no meio, e na fécula alguns flocos estranhos. Reserve.",
+        "Numa panela misture leite integral, óleo, manteiga. Levar ao fogo e deixar ferver.",
+        "Então, acrescentar aos secos vagarosamente e mexendo. Tendo cuidado, estará quente. Essa etapa é chamada de “escaldar” o polvilho.",
+        "Para bater, pode ser manualmente com uma colher grande ou espátula. Ideal que seja na batedeira planetária. É uma massa pesada.",
+        "Continue batendo até esfriar. Deve ficar bem uniforme, macia e uniforme. A melhor comparação é com massa de biscuit.",
+        "Quando ficar morna, ou seja, conseguir colocar a mão sem se queimar. É o momento de acrescentar os ovos. Parece que eles não serão absorvidos, mas vão. Com calma e paciência, coloque um por um, misturando e esperando que seja absorvido pela massa. Em seguida, os queijos. Parece muito queijo, mas a massa aguenta e absorve tudo.",
+        "A massa fica pegajosa quando pronta, então, para fazer as bolinhas é preciso passar óleo nas mãos.",
+        "Aquecer o forno em 180ºC. Unte a assadeira, distribua as bolinhas (deixando espaço entre), assar a 180ºC por 25-30 minutos."
+      ],
+      "category": "salgado",
+      "author": "Mark",
+      "userId": "1",
+      "id": 7
+    },
+    {
+      "title": "Sorvetão",
+      "ingredients": [
+        "3 gemas",
+        "1 lata de leite condensado + 2 vezes a mesma medida de leite",
+        "1 lata de creme de leite",
+        "3 claras",
+        "3 colheres (sopa) de açúcar",
+        "9 colheres (sopa) de achocolatado em pó misturado com 10 colheres (sopa) de água para forrar a fôrma"
+      ],
+      "instructions": [
+        "Misture as gemas com o leite condensado, o leite e metade do creme de leite em uma panela.",
+        "Leve ao fogo médio, mexendo sempre, até engrossar. Tampe e reserve.",
+        "Bata as claras com o açúcar na batedeira até obter picos firmes.",
+        "Sem bater, incorpore delicadamente o creme de leite restante.",
+        "Misture ao creme na panela e despeje em fôrma de cone central forrada com a calda de achocolatado.",
+        "Leve ao freezer por 4 horas antes de desenformar."
+      ],
+      "category": "doce",
+      "author": "Mark",
+      "userId": "1",
+      "id": 8
+    },
+    {
+      "title": "Moscow Mule",
+      "ingredients": [
+        "1½ Partes de Absolut Vodka",
+        "Cubos De Gelo",
+        "½ Parte de Suco De Limão",
+        "Cerveja De Gengibre",
+        "1 Pedaço de Limão"
+      ],
+      "instructions": [
+        "Encher um mule mug com cubos de gelo.",
+        "Adicionar Absolut Vodka.",
+        "Adicionar suco de limão. ",
+        "Completar com cerveja de gengibre. ",
+        "Decorar com limão."
+      ],
+      "category": "bebidas",
+      "author": "Mark",
+      "userId": "1",
+      "id": 9
+    },
+    {
+      "title": "Doce Gelado de Coco com Chocolate",
+      "ingredients": [
+        "Creme branco:",
+        "1 lata de leite condensado",
+        "800 ml de leite",
+        "200 g de coco ralado",
+        "1 e 1/2 colher (sopa) de amido de milho",
+        "1 pitada de sal",
+        "Cobertura:",
+        "1 lata de creme de leite",
+        "12 colheres (sopa) de achocolatado"
+      ],
+      "instructions": [
+        "Creme branco:",
+        "Em uma panela, misture todos ingredientes e leve ao fogo até formar um creme homogêneo.",
+        "Despeje o creme em uma travessa ou em porções individuais e reserve.",
+        "Cobertura:",
+        "Em um recipiente, misture bem o creme de leite e o achocolatado sem levar ao fogo.",
+        "Despeje a mistura por cima do creme branco e leva à geladeira.",
+        "Sirva gelado."
+      ],
+      "category": "doce",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "title": "Risoto de Frango",
+      "ingredients": [
+        "1 peito de frango cozido e desfiado",
+        "1 sachê de pomarola tradicional",
+        "1 lata de milho verde",
+        "1 tablete de caldo de frango",
+        "8 azeitonas médias sem caroço",
+        "Arroz cozido",
+        "Coentro",
+        "Alho",
+        "Cebola",
+        "Sal"
+      ],
+      "instructions": [
+        "Cozinhe o peito de frango com sal e o caldo de galinha.",
+        "Reserve a água do caldo e desfie o frango.",
+        "Em uma panela refogue o alho e a cebola.",
+        "Acrescente o sachê de pomarola, 300 ml do caldo do peito, azeitonas e o milho.",
+        "Mexa até misturar bem.",
+        "Acrescente o arroz cozido, mais ou menos 4 xícaras.",
+        "Mexa novamente, misturando bem.",
+        "Coloque em uma travessa."
+      ],
+      "category": "salgado",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 11
+    },
+    {
+      "title": "Caipirinha de Kiwi com Saquê",
+      "ingredients": [
+        "2 kiwis sem casca",
+        "60 ml de saquê",
+        "Açúcar a gosto (cerca de 4 colheres)",
+        "Cubos de gelo a gosto"
+      ],
+      "instructions": [
+        "Coloque o kiwi e o açúcar em um copo e amasse com o socador.",
+        "Acrescente o saquê, mexa bem.",
+        "Acrescente cubos de gelo e mexa."
+      ],
+      "category": "bebida",
+      "author": "Mark Zuckerberg",
+      "userId": "1",
+      "id": 12
     }
   ],
   "myRecipes": [
