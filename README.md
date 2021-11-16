@@ -47,8 +47,8 @@ Caso dê tudo certo, a resposta será assim:
 
 ```json
 {
-	"email": "pcompe@email.com",
-	"password": "123456"
+  "email": "pcompe@email.com",
+  "password": "123456"
 }
 ```
 
@@ -146,29 +146,29 @@ Caso dê tudo certo, a resposta será assim:
 
 ```json
 [
-     {
-      "title": "Bolo de Laranja Vegano",
-      "ingredients": [
-        "1 laranja em cubos",
-        "1/2 xícara de suco de laranja",
-        "3/4 de xícara de óleo",
-        "1 xícara de açúcar",
-        "2 xícaras de farinha de trigo",
-        "1 colher de sopa de fermento em pó",
-        "Pitada de sal"
-      ],
-      "instructions": [
-        "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
-        "Misturar em uma tigela a farinha e o fermento em pó.",
-        "Incorporar a mistura do liquidificador na farinha com o fermento.",
-        "Colocar a massa em uma forma untada e enfarinhada.",
-        "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
-      ],
-      "category": "doce",
-      "author": "Mark",
-      "userId": "1",
-      "id": 1
-    }
+  {
+    "title": "Bolo de Laranja Vegano",
+    "ingredients": [
+      "1 laranja em cubos",
+      "1/2 xícara de suco de laranja",
+      "3/4 de xícara de óleo",
+      "1 xícara de açúcar",
+      "2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento em pó",
+      "Pitada de sal"
+    ],
+    "instructions": [
+      "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
+      "Misturar em uma tigela a farinha e o fermento em pó.",
+      "Incorporar a mistura do liquidificador na farinha com o fermento.",
+      "Colocar a massa em uma forma untada e enfarinhada.",
+      "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
+    ],
+    "category": "doce",
+    "author": "Mark",
+    "userId": "1",
+    "id": 1
+  }
 ]
 ```
 
@@ -266,7 +266,8 @@ Caso dê tudo certo, a resposta será assim:
   ],
   "category": "doce",
   "author": "Mark",
-  "review": [],
+  "favorites_users": [],
+  "myrecipesId": 1, 
   "userId": "1"
 }
 ```
@@ -294,7 +295,8 @@ Caso dê tudo certo, a resposta será assim:
   ],
   "category": "doce",
   "author": "Mark",
-  "review": [],
+  "favorites_users": [],
+  "myrecipesId": 1, 
   "userId": "1",
   "id": 1
 }
@@ -310,136 +312,33 @@ Caso dê tudo certo, a resposta será assim:
 
 ```json
 [
-     {
-      "title": "Bolo de Maçã Vegano",
-      "ingredients": [
-        "1 maçã em cubos",
-        "1/2 xícara de suco de laranja",
-        "3/4 de xícara de óleo",
-        "1 xícara de açúcar",
-        "2 xícaras de farinha de trigo",
-        "1 colher de sopa de fermento em pó",
-        "Pitada de sal"
-      ],
-      "instructions": [
-        "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
-        "Misturar em uma tigela a farinha e o fermento em pó.",
-        "Incorporar a mistura do liquidificador na farinha com o fermento.",
-        "Colocar a massa em uma forma untada e enfarinhada.",
-        "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
-      ],
-      "category": "doce",
-      "author": "Mark",
-      "review"=[],
-      "userId": "1",
-      "id": 1
-    }
-]
-```
-
-<br/>
-<h2 align='center'> Favoritas </h2>
-<h3 align='center'> Adicionar Receitas Favoritas</h3>
-
-`POST /favorites - FORMATO DA REQUISIÇÃO - STATUS 201`
-
-```JSON
-{
-  "title": "Bolo de Laranja Vegano",
-  "ingredients": [
-    "1 laranja em cubos",
-    "1/2 xícara de suco de laranja",
-    "3/4 de xícara de óleo",
-    "1 xícara de açúcar",
-    "2 xícaras de farinha de trigo",
-    "1 colher de sopa de fermento em pó",
-    "Pitada de sal"
-  ],
-  "instructions": [
-    "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
-    "Misturar em uma tigela a farinha e o fermento em pó.",
-    "Incorporar a mistura do liquidificador na farinha com o fermento.",
-    "Colocar a massa em uma forma untada e enfarinhada.",
-    "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
-  ],
-  "category": "doce",
-  "author": "Mark",
-  "userId": "1",
-}
-```
-
-Caso dê tudo certo, a resposta será assim:
-
-```json
-{
-  "title": "Bolo de Laranja Vegano",
-  "ingredients": [
-    "1 laranja em cubos",
-    "1/2 xícara de suco de laranja",
-    "3/4 de xícara de óleo",
-    "1 xícara de açúcar",
-    "2 xícaras de farinha de trigo",
-    "1 colher de sopa de fermento em pó",
-    "Pitada de sal"
-  ],
-  "instructions": [
-    "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
-    "Misturar em uma tigela a farinha e o fermento em pó.",
-    "Incorporar a mistura do liquidificador na farinha com o fermento.",
-    "Colocar a massa em uma forma untada e enfarinhada.",
-    "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
-  ],
-  "category": "doce",
-  "author": "Mark",
-  "review": [],
-  "userId": "1",
-  "id": 1
-}
-```
-
-<br/>
-
-<h3 align='center'> Ver Receitas Favoritas </h3>
-
-`GET /favorites - FORMATO DA RESPOSTA - STATUS 200`
-
-Caso dê tudo certo, a resposta será assim:
-
-```json
-[
-     {
-      "title": "Bolo de Laranja Vegano",
-      "ingredients": [
-        "1 laranja em cubos",
-        "1/2 xícara de suco de laranja",
-        "3/4 de xícara de óleo",
-        "1 xícara de açúcar",
-        "2 xícaras de farinha de trigo",
-        "1 colher de sopa de fermento em pó",
-        "Pitada de sal"
-      ],
-      "instructions": [
-        "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
-        "Misturar em uma tigela a farinha e o fermento em pó.",
-        "Incorporar a mistura do liquidificador na farinha com o fermento.",
-        "Colocar a massa em uma forma untada e enfarinhada.",
-        "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
-      ],
-      "category": "doce",
-      "author": "Mark",
-      "review": [],
-      "userId": "1",
-      "id": 1
-    }
+  {
+    "title": "Bolo de Maçã Vegano",
+    "ingredients": [
+      "1 maçã em cubos",
+      "1/2 xícara de suco de laranja",
+      "3/4 de xícara de óleo",
+      "1 xícara de açúcar",
+      "2 xícaras de farinha de trigo",
+      "1 colher de sopa de fermento em pó",
+      "Pitada de sal"
+    ],
+    "instructions": [
+      "Bater no liquidificador a laranja, o suco, o óleo, o açúcar e o sal e reservar.",
+      "Misturar em uma tigela a farinha e o fermento em pó.",
+      "Incorporar a mistura do liquidificador na farinha com o fermento.",
+      "Colocar a massa em uma forma untada e enfarinhada.",
+      "Assar por 40 a 50 minutos em forno pré-aquecido a 180ºC."
+    ],
+    "category": "doce",
+    "author": "Mark",
+    "favorites_users": [],
+    "myrecipesId": 1, 
+    "userId": "1",
+    "id": 1
+  }
 ]
 ```
 
 <br/>
 
-<h3 align='center'> Deletar Receitas favorites </h3>
-
-`DELETE /favorites/${favoritesID} - FORMATO DA RESPOSTA - STATUS 200`
-
-Este endpoint não possui resposta
-
-<br/>
